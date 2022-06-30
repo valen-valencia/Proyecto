@@ -1,0 +1,230 @@
+html {
+    background-image: url(fondo.jpg);
+}
+
+body {
+    object-fit: contain;
+    width: 100%;
+}
+
+* {
+    font-family: cursive;
+} 
+.Container{
+    width: 50%;
+    position: absolute;
+    top: 0px;
+
+}#Inicio{
+    position: relative;
+    z-index: 2;
+
+}
+#img{
+    position: absolute;
+    top: 0px;
+    opacity: 20%;
+    height: 100%;
+    width: 100%;
+}
+.Container i{
+    color: #e9a1a1;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+ a{
+    color: #bd8182;
+    text-decoration: none;
+}
+a:hover{
+    color: #eb9395;
+}
+.header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.formulario {
+    position: relative;
+    z-index: 3;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: oldlace;
+    box-shadow: 25px 25px 42px silver;
+  
+}
+
+.inise { position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.inise button {
+    margin: 2px;
+    background-color: azure;
+    border-radius: 10PX;
+    height: 25px;
+    width: 150px;
+}
+
+.inise button:hover {
+    background-color: rgb(170, 230, 230)
+}
+
+.formulario {
+    margin: auto;
+}
+
+.input {
+    display: block;
+    margin: auto;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 362px;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img img {
+    border-radius: 20%;
+    margin: 15px;
+   
+}
+
+.button {
+    display: flex;
+    border-radius: 10PX;
+    height: 40px;
+    margin: auto;
+    background-color: azure
+}
+
+.button:hover {
+    background-color: rgb(170, 230, 230)
+}
+
+/* html {
+    background-image: url(fondo1.jpg);
+}
+
+body {
+    object-fit: contain;
+    width: 100%;
+}
+
+* {
+    font-family: cursive;
+} 
+.Container{
+    width: 50%;
+    position: absolute;
+    top: 0px;
+
+}#Inicio{
+    position: relative;
+    z-index: 2;
+
+}
+#img{
+    position: absolute;
+    top: 0px;
+    opacity: 20%;
+    height: 100%;
+    width: 100%;
+}
+.Container i{
+    color: #e9a1a1;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+ a{
+    color: #bd8182;
+    text-decoration: none;
+}
+a:hover{
+    color: #eb9395;
+}
+.header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.formulario {
+    position: relative;
+    z-index: 3;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: oldlace;
+    box-shadow: 25px 25px 42px silver;
+}
+
+.inise { position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.inise button {
+    margin: 2px;
+    background-color: azure;
+    border-radius: 10PX;
+    height: 25px;
+    width: 150px;
+}
+
+.inise button:hover {
+    background-color: rgb(170, 230, 230)
+}
+
+.formulario {
+    margin: auto;
+}
+
+.input {
+    display: block;
+    margin: auto;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 362px;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    border-radius: 20%;
+    margin: 15px;
+}
+
+.button {
+    display: flex;
+    border-radius: 10PX;
+    height: 40px;
+    margin: auto;
+    background-color: azure
+}
+
+.button:hover {
+    background-color: rgb(170, 230, 230)
+} */

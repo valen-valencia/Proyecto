@@ -1,0 +1,57 @@
+*{
+	font-family: cursive;
+}
+.navegacion li{
+	list-style: none;
+}
+.contenedor{
+ display: flex;
+}
+.items{
+	width: 200px;
+	margin: 5px;
+	display: inline-block;
+	list-style: none;
+}
+.Poker{
+	position: relative;
+	background: #aed;
+}
+.Poker img{
+    position: relative;
+    left: 7px;
+	display: block;
+	height:150px;
+	width:150px;
+}
+.Poker a{
+	display: block;
+}
+.Aguila{
+	background: #aed;
+}
+.Aguila img{
+    position: relative;
+    margin: auto;
+	display: block;
+	height:140px;
+}
+.Aguila a{
+ display: block;
+}
+.Club{
+	background: #aed;
+}
+.Club h2{
+	font-size: 24px;
+}
+.items img{
+	position: relative;
+	margin: auto;
+	display: block;
+	height:150px;
+	width:150px;
+}
+.Club a{
+ display: block;
+}

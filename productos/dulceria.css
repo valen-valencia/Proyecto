@@ -1,0 +1,17 @@
+body{
+    background-color:bisque;
+    color: black;
+}
+img{
+    height: 150x;
+    width: 150px;
+}
+.contenedor> li{
+    height: 150x;
+    width: 150px;
+    display: inline;
+    background-color: bisque;
+    margin: 5px;
+    border:silver;
+
+}

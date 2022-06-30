@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script src="https://kit.fontawesome.com/1e13f7e281.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miscelanea-Bar Valencia</title>
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+    <link rel="stylesheet" href="registrocliente.css">
+
+</head>
+
+<body>
+
+<header class="Container">
+    <ul>
+        <div id="Inicio">
+        <i class="fa-solid fa-house"></i><a href="../index.html">Inicio</a>
+        </div>
+    </ul>
+</header>
+  <header>
+    <div class="inise">
+        <button><a href="../formulario/iniciarsesion.html" id="I_S">Iniciar Sesion</a></button>
+    </div>
+    </header>
+
+    <header class="img">
+        <img src="img/logo3.png" width="120" height="120" border="1px" />
+    </header>
+    <img id="img" src="img/fondo.jpg">
+    <main class="main">
+        <form action="./php/registro.php" method="post" class="formulario">
+            <input class="input" type="text" id="nombres" name="nombre" placeholder=" NOMBRE DE USUARIO ">
+            <input class="input" type="text" id="telefonos" name="telefono" placeholder=" TELEFONO ">
+            <input class="input" type="text" id="direcciones" name="direccion" placeholder=" DIRECCION ">
+            <input class="input" type="text" id="emails" name="email" placeholder=" CORREO ">
+            <input class="input" type="password" id="contraseñas" name="contraseña" placeholder=" CONTRASEÑA ">
+            <button class="button" type="submit"> REGISTRARSE</button>
+        </form>
+    </main>
+</body>
+
+</html>

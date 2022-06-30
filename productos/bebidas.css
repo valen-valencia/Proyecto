@@ -1,0 +1,13 @@
+img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.contenedor>li {
+    width: 200px;
+    display: inline-block;
+    background-color: rgba(254, 229, 229, 0.667);
+    margin: 5px;
+    border: solid #d0caba;
+}
